@@ -2,6 +2,7 @@ const foodService = require('../services/foodService');
 
 const getListFood = async (req, res) => {
 
+  
 }
 
 const getSearchFood = async (req, res) => {

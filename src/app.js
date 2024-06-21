@@ -21,6 +21,7 @@ mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTE_NAME}.0umakns.
 
 app.use('/api', foodRouter);
 
+
 app.listen(PORT, ()=>{
   console.log(`Servidor iniciado na porta ${PORT}`);
 });
