@@ -9,11 +9,11 @@ const PORT = process.env.PORT;
 const PASSWORD = process.env.PASSWORD;
 const AAP_NAME = process.env.AAP_NAME;
 const USER_NAME = process.env.USER_NAME;
-const CLUSTE_NAME = process.env.CLUSTE_NAME;
+const CLUSTER_NAME = process.env.CLUSTER_NAME;
 
 app.use(express.json());
 
-mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTE_NAME}.0umakns.mongodb.net`,{
+mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTER_NAME}.0umakns.mongodb.net`,{
   retryWrites: true, 
   w: 'majority', 
   appName: AAP_NAME
