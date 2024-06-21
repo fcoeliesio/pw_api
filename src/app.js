@@ -8,11 +8,16 @@ const app = express();
 const PORT = process.env.PORT;
 const PASSWORD = process.env.PASSWORD;
 const AAP_NAME = process.env.AAP_NAME;
-const DB_URL = `mongodb+srv://padim:${PASSWORD}@padimfood.0umakns.mongodb.net`;
+const USER_NAME = process.env.USER_NAME;
+const CLUSTE_NAME = process.env.CLUSTE_NAME;
 
 app.use(express.json());
 
-mongoose.connect(DB_URL,{retryWrites: true, w: 'majority', appName: AAP_NAME});
+mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTE_NAME}.0umakns.mongodb.net`,{
+  retryWrites: true, 
+  w: 'majority', 
+  appName: AAP_NAME
+});
 
 // app.use('/api', foodRouter);
 
