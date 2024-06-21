@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-// const "requrer rotas"
+const foodRouter = require('./routes/foodRouter');
 
 const app = express();
 
@@ -19,7 +19,7 @@ mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTE_NAME}.0umakns.
   appName: AAP_NAME
 });
 
-// app.use('/api', foodRouter);
+app.use('/api', foodRouter);
 
 app.listen(PORT, ()=>{
   console.log(`Servidor iniciado na porta ${PORT}`);

@@ -12,7 +12,7 @@ const createNewFood = async (req, res) => {
 
 }
 
-const updateExistingFood = async (req, res) => {
+const updateExistFood = async (req, res) => {
 
 }
 
@@ -24,6 +24,6 @@ module.exports = {
   getListFood,
   getSearchFood,
   createNewFood,
-  updateExistingFood,
+  updateExistFood,
   deleteFood
 }
