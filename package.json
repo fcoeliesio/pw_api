@@ -1,0 +1,30 @@
+{
+  "name": "pw_api",
+  "version": "1.0.0",
+  "description": "Quinta atividade da disciplina de Programação WEB do Curso de Análise e Desenvolvimento de Sistemas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcoeliesio/pw_api.git"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "Javascript"
+  ],
+  "author": "Francisco Eliésio de Sousa Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcoeliesio/pw_api/issues"
+  },
+  "homepage": "https://github.com/fcoeliesio/pw_api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongobd": "^0.0.1-security.0",
+    "mongoose": "^8.4.3"
+  }
+}
