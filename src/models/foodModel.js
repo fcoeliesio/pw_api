@@ -3,8 +3,9 @@ const Schema = mongoose.Schema;
 
 const foodSchema = new Schema({
   id:{
-    type: Number,
-    required:true
+    type: String,
+    required:true,
+    unique:true
   },
   name:{
     type: String,
@@ -27,7 +28,6 @@ const foodSchema = new Schema({
     required:true
   }
 });
-
 
 const Food = mongoose.model('Food', foodSchema);
 module.exports = Food;
