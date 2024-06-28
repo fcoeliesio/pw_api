@@ -20,21 +20,13 @@ O projeto está organizado em camadas para facilitar a manutenção e a escalabi
 - **Mongoose**: ODM (Object Data Modeling) para MongoDB e Node.js.
 
 ## Funcionalidades da API
-1. Listar todos os alimentos (GET):
-• Rota: /api/foods
-• Descrição: Retorna uma lista de todos os alimentos no banco de dados.
+(GET): '/api/foods' - Descrição: Retorna uma lista de todos os alimentos no banco de dados.
 
-2. Buscar um alimento específico (GET):
-• Rota: /api/foods/:id
-• Descrição: Retorna os detalhes de um alimento com base no ID fornecido.
+(GET): '/api/foods/:id' - Descrição: Retorna os detalhes de um alimento com base no ID fornecido.
 
-3. Criar um novo alimento (POST):
-• Rota: /api/foods
-• Descrição: Cria um novo alimento com base nos dados fornecidos.
+(POST): '/api/foods' - Descrição: Cria um novo alimento com base nos dados fornecidos.
 
-5. Excluir um alimento (DELETE):
-• Rota: /api/foods/:id
-• Descrição: Remove um alimento com base no ID fornecido.
+(DELETE): '/api/foods/:id' - Descrição: Remove um alimento com base no ID fornecido.
 
 ### Pré-requisitos
 
