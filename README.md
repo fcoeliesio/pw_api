@@ -54,4 +54,16 @@ O projeto está organizado em camadas para facilitar a manutenção e a escalabi
         appName: 'APP_NAME'
     });
   ```
+  ### Contrato
+
+  ```json
+  {
+    "id": "string_id",
+    "name": "string_name",
+    "category": "string_category",
+    "quantify": 1, 
+    "expirationDate": "date",
+    "price": 1.0
+  }
+  ```
 
