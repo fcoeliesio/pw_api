@@ -20,6 +20,8 @@ O projeto está organizado em camadas para facilitar a manutenção e a escalabi
 - **Mongoose**: ODM (Object Data Modeling) para MongoDB e Node.js.
 
 ## Funcionalidades da API
+
+### Rotas
 (GET): '/api/foods' - Descrição: Retorna uma lista de todos os alimentos no banco de dados.
 
 (GET): '/api/foods/:id' - Descrição: Retorna os detalhes de um alimento com base no ID fornecido.
