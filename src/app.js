@@ -14,7 +14,7 @@ const AAP_NAME = process.env.AAP_NAME;
 const USER_NAME = process.env.USER_NAME;
 const CLUSTER_NAME = process.env.CLUSTER_NAME;
 
-mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTER_NAME}.0umakns.mongodb.net`,{
+mongoose.connect(`mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTER_NAME}.okwhivl.mongodb.net`,{
   retryWrites: true, 
   w: 'majority', 
   appName: AAP_NAME
