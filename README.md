@@ -1,6 +1,6 @@
 # 5ª Atividade - Programação para Web - UFCA/ADS
 
-Descrição do repositório
+Esta atividade tem como propósito a criação de uma API RESTful, com manipulação de dados em um banco de dados NoSQL e prática com o framework Express. 
 
 ## Estrutura do Projeto
 
@@ -20,8 +20,21 @@ O projeto está organizado em camadas para facilitar a manutenção e a escalabi
 - **Mongoose**: ODM (Object Data Modeling) para MongoDB e Node.js.
 
 ## Funcionalidades da API
+1. Listar todos os alimentos (GET):
+• Rota: /api/foods
+• Descrição: Retorna uma lista de todos os alimentos no banco de dados.
 
-Descrição da API
+2. Buscar um alimento específico (GET):
+• Rota: /api/foods/:id
+• Descrição: Retorna os detalhes de um alimento com base no ID fornecido.
+
+3. Criar um novo alimento (POST):
+• Rota: /api/foods
+• Descrição: Cria um novo alimento com base nos dados fornecidos.
+
+5. Excluir um alimento (DELETE):
+• Rota: /api/foods/:id
+• Descrição: Remove um alimento com base no ID fornecido.
 
 ### Pré-requisitos
 
